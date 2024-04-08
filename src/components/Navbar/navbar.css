@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     width: 100%;
+    padding: 70px 0;
     max-width: 1440px;
     align-items: center;
     justify-content: space-between;
@@ -9,13 +10,16 @@
 .navbar-items {
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    font-size: 18px;
+    gap: 45px;
 }
 
 ul {
     list-style-type: none;
     cursor: pointer;
+}
+
+li {
+    font-size: 17px;
 }
 
 li:hover {

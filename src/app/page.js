@@ -18,12 +18,12 @@ export default function Home() {
           </div>
 
           <Image 
-          src="/assets/home/desktop/image-hero-phone.png"
-          width={640}
-          height={930}
-          alt="Backrgound image"
-          className={styles.heroImage}
-        />
+            src="/assets/home/desktop/image-hero-phone.png"
+            width={640}
+            height={930}
+            alt="Backrgound image"
+            className={styles.heroImage}
+          />
         </div>
 
         <Image 

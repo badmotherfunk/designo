@@ -9,8 +9,8 @@ export default function Navbar() {
                 <Image 
                 src="/assets/shared/desktop/logo-dark.png" 
                 alt="Designo logo" 
-                width={220}
-                height={30}
+                width={190}
+                height={25}
                 />
             </Link>
 
