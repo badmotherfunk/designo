@@ -1,11 +1,12 @@
 .navbar {
     display: flex;
-    width: 100%;
-    padding: 70px 0;
+    width: 100vw;
+    padding: 70px 150px;
     max-width: 1440px;
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
+    position: relative;
 }
 
 .opacity-overlay {
@@ -45,6 +46,10 @@ a {
 }
 
 @media screen and (max-width: 1024px ) {
+    .navbar {
+        padding: 70px 100px;
+    }
+
     .navbar-items {
         gap: 35px;
     }
@@ -55,6 +60,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    .navbar {
+        padding: 60px 40px;
+    }
     li {
         font-size: 14px;
     }
@@ -75,7 +83,7 @@ a {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 150px;
+        top: 140px;
         background-color: #000;
         width: 100%;
         padding: 50px 30px;
@@ -86,11 +94,12 @@ a {
     .opacity-overlay-active {
         display: block;
         position: fixed;
-        margin-top: 150px;
         inset: 0;
+        top: 140px;
         background-color: #000;
         opacity: 0.5;
-        z-index: 90;
+        z-index: 2;
+        overflow: hidden;
     }
 
     li {
@@ -115,6 +124,6 @@ a {
     }
 
     .opacity-overlay-active {
-        margin-top: 100px;
+        top: 92px;
     }
 }

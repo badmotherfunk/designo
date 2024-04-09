@@ -10,8 +10,13 @@ export default function Navbar() {
 
     const handleToggle = () => {
         setActive(!active)
+        document.documentElement.style.overflowY = 'hidden';
     }
-    console.log(active)
+
+    const handleClose = () => {
+        setActive(!active)
+        document.documentElement.style.overflow = 'scroll';
+    }
 
     return(
         <nav className="navbar">
@@ -39,13 +44,17 @@ export default function Navbar() {
             </div>
             <div className={active ? "opacity-overlay-active" : "opacity-overlay"}></div>
 
+            {!active && 
             <div className="menu-hamburger" onClick={handleToggle}>
-                {!active ?
                    <svg width="24" height="20" xmlns="http://www.w3.org/2000/svg"><g fill="#1D1C1E" fillRule="evenodd"><path d="M0 0h24v4H0zM0 8h24v4H0zM0 16h24v4H0z"/></g></svg>
-                :
-                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M17.071.1L19.9 2.93l-7.071 7.07 7.071 7.072-2.828 2.828L10 12.828l-7.071 7.071L.1 17.071 7.17 10 .102 2.929 2.929.1l7.07 7.07 7.072-7.07z" fill="#1D1C1E" fillRule="evenodd"/></svg>
-                }
             </div>
+            }
+
+            {active &&
+                <div className="menu-hamburger" onClick={handleClose}>
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M17.071.1L19.9 2.93l-7.071 7.07 7.071 7.072-2.828 2.828L10 12.828l-7.071 7.071L.1 17.071 7.17 10 .102 2.929 2.929.1l7.07 7.07 7.072-7.07z" fill="#1D1C1E" fillRule="evenodd"/></svg>
+                </div>            
+            }
             
         </nav>
     )
