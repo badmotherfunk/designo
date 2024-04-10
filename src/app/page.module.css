@@ -435,6 +435,7 @@ div:has( ~ .categoryContent:hover) {
   .skills {
     gap: 75px;
     padding-top: 0;
+    padding-bottom: 350px;
   }
 
   .skillsContent {
