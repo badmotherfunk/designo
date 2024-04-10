@@ -47,7 +47,7 @@ a {
 
 @media screen and (max-width: 1024px ) {
     .navbar {
-        padding: 70px 100px;
+        padding: 70px 40px;
     }
 
     .navbar-items {
