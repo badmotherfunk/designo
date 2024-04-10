@@ -29,19 +29,18 @@ export default function Navbar() {
                 />
             </Link>
 
-            <div>
-                <ul className={active ? "navbar-items active" : "navbar-items"}>
-                    <Link href="/company">
-                        <li>OUR COMPANY</li>
-                    </Link>
-                    <Link href="/locations">
-                        <li>LOCATIONS</li>
-                    </Link>
-                    <Link href="/contact">
-                        <li>CONTACT</li>
-                    </Link>
-                </ul>
-            </div>
+            <ul className={active ? "navbar-items active" : "navbar-items"}>
+                <Link href="/company">
+                    <li>OUR COMPANY</li>
+                </Link>
+                <Link href="/locations">
+                    <li>LOCATIONS</li>
+                </Link>
+                <Link href="/contact">
+                    <li>CONTACT</li>
+                </Link>
+            </ul>
+
             <div className={active ? "opacity-overlay-active" : "opacity-overlay"}></div>
 
             {!active && 
