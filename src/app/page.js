@@ -10,6 +10,8 @@ export default function Home() {
       <div className={styles.home}>
         <Navbar />
 
+        {/* HERO SECTION */}
+
         <section className={styles.heroContainer}>
           <div className={styles.heroContent}>
             <h1 className={styles.heroTitle}>Award-winning custom designs and digital branding solutions</h1>
@@ -34,6 +36,8 @@ export default function Home() {
           alt="Backrgound image"
           className={styles.backgroundImageLeft}
         />
+
+        {/* CATEGORY SECTION */}
 
         <section className={styles.category}>
           
@@ -73,6 +77,72 @@ export default function Home() {
           </div>
 
         </section>
+
+        <Image 
+          src="/assets/shared/desktop/bg-pattern-leaf.svg"
+          width={1000}
+          height={590}
+          alt="Backrgound image"
+          className={styles.backgroundImageRight}
+        />
+        
+          {/* SKILLS SECTION */}
+          
+          <section className={styles.skills}>
+            <div className={styles.skillsContent}>
+              <div className={styles.skillsImageContainer}>
+                <Image
+                  src="/assets/home/desktop/illustration-passionate.svg"
+                  width={202}
+                  height={202}
+                  alt="Happy man working in front of his tablet"
+                />
+                <svg className={styles.skillsBackgroundLeft} width="215" height="220" viewBox="0 0 650 550" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="a"><stop stop-color="#5D0202" stop-opacity="0" offset="0%"/><stop stop-color="#5D0202" stop-opacity=".498" offset="100%"/></linearGradient></defs><circle fill="url(#a)" transform="matrix(0 -1 -1 0 640 640)" cx="320" cy="320" r="320" fillRule="evenodd" opacity=".309"/></svg>
+              </div>
+
+              <div className={styles.skillsTextContainer}>
+                <p className={styles.skillsTitle}>PASSIONATE</p>
+                <p className={styles.skillsText}>Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions.</p>
+              </div>
+            </div>
+
+            <div className={styles.skillsContent}>
+              <div className={styles.skillsImageContainer}>
+                <Image
+                  src="/assets/home/desktop/illustration-resourceful.svg"
+                  width={202}
+                  height={202}
+                  alt="Man back view working on his office"
+                />
+                <svg className={styles.skillsBackgroundCentered} width="215" height="220" viewBox="0 0 650 550" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="a"><stop stop-color="#5D0202" stop-opacity="0" offset="0%"/><stop stop-color="#5D0202" stop-opacity=".498" offset="100%"/></linearGradient></defs><circle fill="url(#a)" transform="matrix(0 -1 -1 0 640 640)" cx="320" cy="320" r="320" fillRule="evenodd" opacity=".309"/></svg>
+              </div>            
+
+              <div className={styles.skillsTextContainer}>
+                <p className={styles.skillsTitle}>RESOURCEFUL</p>
+                <p className={styles.skillsText}>Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs.</p>
+              </div>
+            </div>
+
+            <div className={styles.skillsContent}>
+              <div className={styles.skillsImageContainer}>
+                <Image
+                  src="/assets/home/desktop/illustration-friendly.svg"
+                  width={202}
+                  height={202}
+                  alt="Man and women working together"
+                />
+                <svg className={styles.skillsBackgroundRight} width="215" height="220" viewBox="0 0 650 550" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="a"><stop stop-color="#5D0202" stop-opacity="0" offset="0%"/><stop stop-color="#5D0202" stop-opacity=".498" offset="100%"/></linearGradient></defs><circle fill="url(#a)" transform="matrix(0 -1 -1 0 640 640)" cx="320" cy="320" r="320" fillRule="evenodd" opacity=".309"/></svg>
+              </div>
+
+              <div className={styles.skillsTextContainer}>
+                <p className={styles.skillsTitle}>FRIENDLY</p>
+                <p className={styles.skillsText}>We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.</p>
+              </div>
+            </div>
+
+
+          </section>
+
       </div>
   );
 }
