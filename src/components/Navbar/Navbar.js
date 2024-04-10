@@ -20,7 +20,7 @@ export default function Navbar() {
 
     return(
         <nav className="navbar">
-            <Link href="/" className="logo-link">
+            <Link href="/" className="logoLink">
                 <Image 
                 src="/assets/shared/desktop/logo-dark.png" 
                 alt="Designo logo" 
@@ -29,7 +29,7 @@ export default function Navbar() {
                 />
             </Link>
 
-            <ul className={active ? "navbar-items active" : "navbar-items"}>
+            <ul className={active ? "navbarLinks active" : "navbarLinks"}>
                 <Link href="/company">
                     <li>OUR COMPANY</li>
                 </Link>
@@ -41,16 +41,16 @@ export default function Navbar() {
                 </Link>
             </ul>
 
-            <div className={active ? "opacity-overlay-active" : "opacity-overlay"}></div>
+            <div className={active ? "opacityOverlayActive" : "opacityOverlay"}></div>
 
             {!active && 
-            <div className="menu-hamburger" onClick={handleToggle}>
+            <div className="menuHamburger" onClick={handleToggle}>
                    <svg width="24" height="20" xmlns="http://www.w3.org/2000/svg"><g fill="#1D1C1E" fillRule="evenodd"><path d="M0 0h24v4H0zM0 8h24v4H0zM0 16h24v4H0z"/></g></svg>
             </div>
             }
 
             {active &&
-                <div className="menu-hamburger" onClick={handleClose}>
+                <div className="menuHamburger" onClick={handleClose}>
                     <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M17.071.1L19.9 2.93l-7.071 7.07 7.071 7.072-2.828 2.828L10 12.828l-7.071 7.071L.1 17.071 7.17 10 .102 2.929 2.929.1l7.07 7.07 7.072-7.07z" fill="#1D1C1E" fillRule="evenodd"/></svg>
                 </div>            
             }
