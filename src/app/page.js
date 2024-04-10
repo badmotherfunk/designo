@@ -154,9 +154,8 @@ export default function Home() {
             </div>
 
             <div className={styles.footerContainer}>
-
               <div className={styles.footerTopContent}>
-                <Link href="/" className="logo-link">
+                <Link href="/">
                   <Image 
                     src="/assets/shared/desktop/logo-light.png" 
                     alt="Designo logo" 
@@ -165,20 +164,21 @@ export default function Home() {
                   />
                 </Link>
 
-                <ul className={styles.navbarItems}>
-                  <Link href="/company">
+                <nav>
+                  <ul className={styles.navbarItems}>
+                    <Link href="/company">
                       <li>OUR COMPANY</li>
-                  </Link>
-                  <Link href="/locations">
+                    </Link>
+                    <Link href="/locations">
                       <li>LOCATIONS</li>
-                  </Link>
-                  <Link href="/contact">
+                    </Link>
+                    <Link href="/contact">
                       <li>CONTACT</li>
-                  </Link>
-                </ul>
+                    </Link>
+                  </ul>
+                </nav>
               </div>
 
-              <div className={styles.footerLineBreak}></div>
 
 
               <div className={styles.footerBottomContent}>
