@@ -164,6 +164,10 @@
       padding: 0 20px
     }
 
+    .callToAction {
+        background-position: center right -300px;
+    }
+
     .callToActionTitle {
         font-size: 32px;
         width: 230px;
@@ -182,6 +186,7 @@
       flex-direction: column;
       align-items: center;
       width: 100%;
+      padding-top: 5px;  
     }
   
     .footerBottomContent {
