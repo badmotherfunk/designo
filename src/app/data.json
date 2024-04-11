@@ -48,12 +48,14 @@
       ],
       "others": [
         {
-          "images": "/assets/home/desktop/image-app-design-large.jpg",
-          "name": "APP DESIGN"
+          "images": "/assets/home/desktop/image-app-design.jpg",
+          "name": "APP DESIGN",
+          "slug": "/app-design"
         },
         {
           "images": "/assets/home/desktop/image-graphic-design.jpg",
-          "name": "GRAPHIC DESIGN"
+          "name": "GRAPHIC DESIGN",
+          "slug": "/graphic-design"
         }
       ]
     },
@@ -98,11 +100,13 @@
       "others": [
         {
           "images": "/assets/home/desktop/image-web-design-large.jpg",
-          "name": "WEB DESIGN"
+          "name": "WEB DESIGN",
+          "slug": "/web-design"
         },
         {
           "images": "/assets/home/desktop/image-graphic-design.jpg",
-          "name": "GRAPHIC DESIGN"
+          "name": "GRAPHIC DESIGN",
+          "slug": "/graphic-design"
         }
       ]
     },
@@ -132,12 +136,14 @@
       ],
       "others": [
         {
-          "images": "/assets/home/desktop/image-app-design-large.jpg",
-          "name": "APP DESIGN"
+          "images": "/assets/home/desktop/image-app-design.jpg",
+          "name": "APP DESIGN",
+          "slug": "/app-design"
         },
         {
           "images": "/assets/home/desktop/image-graphic-design.jpg",
-          "name": "GRAPHIC DESIGN"
+          "name": "GRAPHIC DESIGN",
+          "slug": "/graphic-design"
         }
       ]
     }
