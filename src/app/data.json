@@ -57,6 +57,12 @@
           "name": "GRAPHIC DESIGN",
           "slug": "/graphic-design"
         }
+      ],
+      "banner": [
+        {
+          "title": "Web Design",
+          "description": "We build websites that serve as powerful marketing tools and bring memorable brand experiences."
+        }
       ]
     },
     "app": {
@@ -108,6 +114,12 @@
           "name": "GRAPHIC DESIGN",
           "slug": "/graphic-design"
         }
+      ],
+      "banner": [
+        {
+          "title": "App Design",
+          "description": "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."
+        }
       ]
     },
     "graphic": {
@@ -144,6 +156,12 @@
           "images": "/assets/home/desktop/image-graphic-design.jpg",
           "name": "GRAPHIC DESIGN",
           "slug": "/graphic-design"
+        }
+      ],
+      "banner": [
+        {
+          "title": "Graphic Design",
+          "description": "We deliver eye-catching branding materials that are tailored to meet your business objectives."
         }
       ]
     }

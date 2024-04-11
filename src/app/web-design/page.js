@@ -6,6 +6,7 @@ import Card from "@/components/Card/Card"
 import Image from "next/image"
 import Categories from "@/components/Categories/categories"
 import Footer from "@/components/Footer/Footer"
+import Banner from "@/components/Banner/Banner"
 
 export default function webDesign() {
 
@@ -21,10 +22,7 @@ export default function webDesign() {
              className="pageBackground"
             />
 
-            <div className="heroContainer">
-                <h1 className="heroTitle">WEB DESIGN</h1>
-                <p className="heroText">We build websites that serve as powerful marketing tools and bring memorable brand experiences.</p>
-            </div>
+            <Banner props={data.web.banner}/>
 
             <div className="cardContainer">
             {data.web.projects.map((project, index) => (
