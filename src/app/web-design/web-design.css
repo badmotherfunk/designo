@@ -5,6 +5,15 @@
     padding: 0 150px;
 }
 
+.pageBackground {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: 270px;
+}
+
+/* ----------------- HERO SECTION ----------------- */
+
 .heroContainer {
     display: flex;
     flex-direction: column;
@@ -33,6 +42,8 @@
     text-align: center;
 }
 
+/* ----------------- PROJECTS SECTION ----------------- */
+
 .cardContainer {
     display: flex;
     flex-direction: row;
@@ -44,6 +55,17 @@
     max-width: 1440px;
 }
 
+/* ----------------- CATEGORIES SECTION ----------------- */
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1440px;
+    gap: 30px;
+    padding-bottom: 400px;
+}
+
 
 /* ----------------- MEDIA QUERIES ----------------- */
 
@@ -51,22 +73,35 @@
     .pagesBase {
         padding: 0 40px;
     }
+
+    .pageBackground {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .heroContainer {
         background-position: center right -170px;
     }
+
+    .categories {
+        padding-bottom: 380px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .cardContainer {
-        padding: 120px 0;
+        padding: 110px 0;
         flex-direction: column;
     }
 
     .heroText {
         width: 58%;
+    }
+
+    .categories {
+        flex-direction: column;
+        padding-bottom: 350px;
     }
 }
 
@@ -94,5 +129,9 @@
     .cardContainer {
         padding: 100px 0;
         gap: 40px;
+    }
+
+    .categories {
+        padding-bottom: 340px;
     }
 }
