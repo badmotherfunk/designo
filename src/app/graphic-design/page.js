@@ -8,7 +8,7 @@ import Categories from "@/components/Categories/categories"
 import Footer from "@/components/Footer/Footer"
 import Banner from "@/components/Banner/Banner"
 
-export default function appDesign() {
+export default function graphicDesign() {
 
     return(
         <div className="pagesBase">
@@ -22,16 +22,16 @@ export default function appDesign() {
              className="pageBackground"
             />
 
-            <Banner props={data.app.banner}/>
+            <Banner props={data.graphic.banner}/>
 
             <div className="cardContainer">
-            {data.app.projects.map((project, index) => (
+            {data.graphic.projects.map((project, index) => (
                 <Card key={index} props={project}/>
             ))}
             </div>
 
             <div className="categories">
-                {data.app.others.map((category, index) => (
+                {data.graphic.others.map((category, index) => (
                     <Categories key={index} props={category} />
                 ))}
             </div>

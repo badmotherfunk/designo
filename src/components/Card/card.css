@@ -40,6 +40,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     gap: 10px;
+    min-height: 185px;
 }
 
 .cardTitle {
@@ -69,6 +70,7 @@
         width: 100%;
         border-bottom-left-radius: 0;
         border-top-right-radius: 15px;
+        min-height: none;
     }
 }
 
