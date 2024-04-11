@@ -1,6 +1,6 @@
 "use client"
 import data from "../data.json"
-import "./web-design.css"
+import "./pages.css"
 import Navbar from "@/components/Navbar/Navbar"
 import Card from "@/components/Card/Card"
 import Image from "next/image"
