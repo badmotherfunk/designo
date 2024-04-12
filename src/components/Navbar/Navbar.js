@@ -30,7 +30,7 @@ export default function Navbar() {
             </Link>
 
             <ul className={active ? "navbarLinks active" : "navbarLinks"}>
-                <Link href="/company">
+                <Link href="/about">
                     <li>OUR COMPANY</li>
                 </Link>
                 <Link href="/locations">

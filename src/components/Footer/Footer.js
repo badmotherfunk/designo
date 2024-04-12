@@ -28,7 +28,7 @@ export default function Footer() {
 
             <nav>
               <ul className="navbarItems">
-                <Link href="/company">
+                <Link href="/about">
                   <li>OUR COMPANY</li>
                 </Link>
                 <Link href="/locations">
