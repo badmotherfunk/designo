@@ -30,13 +30,13 @@ export default function Navbar() {
             </Link>
 
             <ul className={active ? "navbarLinks active" : "navbarLinks"}>
-                <Link href="/about">
+                <Link href="/about" onClick={handleClose}>
                     <li>OUR COMPANY</li>
                 </Link>
-                <Link href="/locations">
+                <Link href="/locations" onClick={handleClose}>
                     <li>LOCATIONS</li>
                 </Link>
-                <Link href="/contact">
+                <Link href="/contact" onClick={handleClose}>
                     <li>CONTACT</li>
                 </Link>
             </ul>
