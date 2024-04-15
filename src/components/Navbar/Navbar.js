@@ -14,7 +14,7 @@ export default function Navbar() {
     }
 
     const handleClose = () => {
-        setActive(!active)
+        setActive(false)
         document.documentElement.style.overflow = 'scroll';
     }
 
