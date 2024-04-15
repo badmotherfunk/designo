@@ -1,13 +1,19 @@
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
+import { usePathname } from "next/navigation"
 import "./footer.css"
 import Button from "../Button/Button"
 
 export default function Footer() {
-    return (
+
+  const pathname = usePathname()
+
+  return (
         <footer className="footer">
 
-        <div className="callToAction">
+        <div className={ pathname === "/contact" ? "callToActionDisabled" : "callToAction"}>
           <div className="callToActionContent">
             <h2 className="callToActionTitle">Let’s talk about your project</h2>
             <p className="callToActionText">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
