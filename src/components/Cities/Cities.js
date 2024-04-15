@@ -58,7 +58,7 @@ export default function Cities() {
 
           <div className="citiesTextContainer">
             <p className="citiesTitle">UNITED KINGDOM</p>
-            <Link href="/locations#united-kingdom">
+            <Link href="/locations#uk">
                 <button className="citiesButton">SEE LOCATION</button>
             </Link>
           </div>

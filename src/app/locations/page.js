@@ -11,7 +11,7 @@ export default function locations() {
             <div className="locationsGlobal">
                 <div className="locationsContainer">
 
-                    <div className="locationsContent">
+                    <div className="locationsContent" id="canada">
                         <p className="locationsTitle">Canada</p>
 
                         <div className="adressContainer">
@@ -42,7 +42,7 @@ export default function locations() {
                 </div>
 
                 <div className="locationsContainerReverse">
-                    <div className="locationsContent">
+                    <div className="locationsContent" id="australia">
                         <p className="locationsTitle">Australia</p>
 
                         <div className="adressContainer">
@@ -73,7 +73,7 @@ export default function locations() {
                 </div>
 
                 <div className="locationsContainer">
-                    <div className="locationsContent">
+                    <div className="locationsContent" id="uk">
                         <p className="locationsTitle">United Kingdom</p>
 
                         <div className="adressContainer">
