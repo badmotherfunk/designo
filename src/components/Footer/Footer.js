@@ -18,7 +18,9 @@ export default function Footer() {
             <h2 className="callToActionTitle">Let’s talk about your project</h2>
             <p className="callToActionText">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
           </div>
-          <Button props={"GET IN TOUCH"} />
+          <Link href="/contact">
+            <Button props={"GET IN TOUCH"} />
+          </Link>
         </div>
 
         <div className="footerContainer">
