@@ -9,9 +9,8 @@ export default function locations() {
             <Navbar />
             
             <div className="locationsGlobal">
-                <div className="locationsContainer">
-
-                    <div className="locationsContent" id="canada">
+                <div className="locationsContainer" id="canada">
+                    <div className="locationsContent">
                         <p className="locationsTitle">Canada</p>
 
                         <div className="adressContainer">
@@ -41,8 +40,8 @@ export default function locations() {
                     </picture>
                 </div>
 
-                <div className="locationsContainerReverse">
-                    <div className="locationsContent" id="australia">
+                <div className="locationsContainerReverse" id="australia">
+                    <div className="locationsContent">
                         <p className="locationsTitle">Australia</p>
 
                         <div className="adressContainer">
@@ -72,8 +71,8 @@ export default function locations() {
                     </picture>
                 </div>
 
-                <div className="locationsContainer">
-                    <div className="locationsContent" id="uk">
+                <div className="locationsContainer" id="uk">
+                    <div className="locationsContent">
                         <p className="locationsTitle">United Kingdom</p>
 
                         <div className="adressContainer">
