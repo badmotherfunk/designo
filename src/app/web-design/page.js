@@ -4,7 +4,7 @@ import "./pages.css"
 import Navbar from "@/components/Navbar/Navbar"
 import Card from "@/components/Card/Card"
 import Image from "next/image"
-import Categories from "@/components/Categories/categories"
+import Categories from "@/components/Categories/Categories"
 import Footer from "@/components/Footer/Footer"
 import Banner from "@/components/Banner/Banner"
 

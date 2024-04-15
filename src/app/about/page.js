@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar/Navbar"
 import "./about.css"
 import Image from "next/image"
+import Cities from "@/components/Cities/cities"
 
 export default function Company() {
     return(
@@ -59,6 +60,8 @@ export default function Company() {
              alt="Backrgound image"
              className="backgroundImageRight"
             />
+
+            <Cities />
 
         </div>
     )
