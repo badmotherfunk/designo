@@ -10,6 +10,7 @@
 .contactContainer {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 480px;
     max-width: 1440px;
@@ -113,6 +114,9 @@
     max-width: 1440px;
 }
 
+
+/* ----------------- MEDIA QUERIES ----------------- */
+
 @media screen and (max-width: 1024px) {
     .contact {
         padding: 0 40px;
@@ -120,5 +124,57 @@
 
     .backgroundImageRight {
         display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactContainer {
+        flex-direction: column;
+        height: 710px;
+        background-position: top -95px left -130px;
+        padding: 60px;
+        gap: 30px;
+        margin-bottom: 100px;
+    }
+
+    .contactContent {
+        width: 100%;
+    }
+
+    .contactForm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contactContainer {
+        height: 760px;
+        background-position: top -95px left -130px;
+        padding: 25px;
+        gap: 30px;
+        margin-bottom: 0;
+        width: 100vw;
+        border-radius: 0;
+        background-image: url("../../../public/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg");
+        background-position: top left -90px;
+    }
+
+    .contactContent {
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .contactTitle {
+        font-size: 32px;
+    }
+
+    .contactButtonContainer {
+        justify-content: center;
+        padding-top: 35px;
+    }
+
+    .citiesContainer {
+        padding-bottom: 20px;
     }
 }

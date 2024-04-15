@@ -18,7 +18,7 @@ export default function contact() {
 
                 <form className="contactForm">
                     <input type="text" placeholder="Name" required/>
-                    <input type="email" placeholder="Email Adress" required/>
+                    <input type="email" placeholder="Email Address" required/>
                     <input type="tel" placeholder="Phone" required/>
                     <textarea placeholder="Your Message" required/>
 
