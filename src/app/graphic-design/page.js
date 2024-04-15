@@ -8,7 +8,7 @@ import Categories from "@/components/Categories/Categories"
 import Footer from "@/components/Footer/Footer"
 import Banner from "@/components/Banner/Banner"
 
-export default function graphicDesign() {
+export default function GraphicDesign() {
 
     return(
         <div className="pagesBase">

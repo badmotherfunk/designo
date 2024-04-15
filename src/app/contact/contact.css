@@ -60,6 +60,7 @@
     color: #fff;
     font-size: 15px;
     font-family: "Jost";
+    width: 100%;
 }
 
 .contactForm input:focus,
@@ -69,6 +70,7 @@
 
 .contactForm textarea {
     height: 100px;
+    resize: none;
 }
 
 ::placeholder {
@@ -112,6 +114,57 @@
     padding-bottom: 70px;
     width: 100%;
     max-width: 1440px;
+}
+
+.inputContainer {
+    width: 100%;
+    position: relative;
+}
+
+.errorContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 12px;
+    font-style: italic;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.contactOverlay {
+    position: fixed;
+    inset: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.confirmationMessage { 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 60vw;
+    height: 130px;
+    border-radius: 10px;
+    z-index: 2;
+    font-weight: 500;
+    color: #E7816B;
+}
+
+.confirmationClose {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    transform: scale(0.8);
 }
 
 

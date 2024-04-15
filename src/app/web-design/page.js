@@ -8,7 +8,7 @@ import Categories from "@/components/Categories/Categories"
 import Footer from "@/components/Footer/Footer"
 import Banner from "@/components/Banner/Banner"
 
-export default function webDesign() {
+export default function WebDesign() {
 
     return(
         <div className="pagesBase">
