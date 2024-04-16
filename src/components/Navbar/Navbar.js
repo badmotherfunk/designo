@@ -41,7 +41,7 @@ export default function Navbar() {
                 </Link>
             </ul>
 
-            <div className={active ? "opacityOverlayActive" : "opacityOverlay"}></div>
+            <div className={active ? "opacityOverlayActive" : "opacityOverlay"} onClick={handleClose}></div>
 
             {!active && 
             <div className="menuHamburger" onClick={handleToggle}>

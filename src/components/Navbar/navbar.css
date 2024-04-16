@@ -119,6 +119,10 @@ a {
         z-index: 99;
     }
 
+    a {
+        width: fit-content;
+    }
+
     .active {
         top: 92px;
     }
