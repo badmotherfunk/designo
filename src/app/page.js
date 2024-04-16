@@ -18,7 +18,9 @@ export default function Home() {
             <h1 className={styles.heroTitle}>Award-winning custom designs and digital branding solutions</h1>
             <p className={styles.heroText}>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
 
-            <Button props={"LEARN MORE"}/>
+            <Link href="#service">
+              <Button props={"LEARN MORE"}/>
+            </Link>
           </div>
 
           <Image 
@@ -40,7 +42,7 @@ export default function Home() {
 
         {/* --------- CATEGORY SECTION --------- */}
 
-        <section className={styles.category}>
+        <section className={styles.category} id="service">
           
           <Link href="/web-design" className={styles.imageLeftContainer}>
               <div className={styles.categoryOverlay}></div>
