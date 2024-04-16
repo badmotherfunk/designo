@@ -25,6 +25,7 @@ export default function Contact() {
         setFormValues({...formValues, [name]: value})
     }
     
+    // Vérifie les inputs pour créer un message d'erreur
     const validate = (values) => {
         const errors = {}
     
@@ -47,17 +48,21 @@ export default function Contact() {
         return errors
     }
 
+    // Validation du formulaire
     const handleSubmit = (e) => {
         e.preventDefault()
         setError(validate(formValues))
 
         if(Object.values(formValues).filter(value => !value).length === 0) {
             setIsSubmit(true)
+            document.documentElement.style.overflowY = 'hidden';
         }
     }  
 
+    // Gestion de la fermeture de la modal de confirmation
     const handleClose = () => {
         setIsSubmit(false)
+        document.documentElement.style.overflowY = 'scroll';
     }
 
 
