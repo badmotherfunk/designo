@@ -19,7 +19,7 @@
     background-image: url("../../../public/assets/contact/desktop/bg-pattern-hero-desktop.svg");
     background-repeat: no-repeat;
     background-position: bottom left;
-    padding: 100px;
+    padding: 90px;
     gap: 100px;
     margin-bottom: 50px;
 }
@@ -127,7 +127,7 @@
     gap: 5px;
     position: absolute;
     right: 0;
-    top: 20px;
+    top: 18px;
     font-size: 12px;
     font-style: italic;
     color: #fff;
@@ -207,6 +207,10 @@
 
     .backgroundImageRight {
         display: none;
+    }
+    
+    .contactContainer {
+        padding: 70px;
     }
 }
 
