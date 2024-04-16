@@ -7,7 +7,7 @@ export const metadata = {
   title: "Designo",
   description: "Award-winning custom designs and digital branding solutions",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/images/favicon.ico",
   },
 };
 
