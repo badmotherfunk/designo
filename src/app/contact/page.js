@@ -53,6 +53,7 @@ export default function Contact() {
         e.preventDefault()
         setError(validate(formValues))
 
+        // Si tous les inputs sont remplis alors isSubmit === true
         if(Object.values(formValues).filter(value => !value).length === 0) {
             setIsSubmit(true)
             document.documentElement.style.overflowY = 'hidden';
