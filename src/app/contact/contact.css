@@ -188,6 +188,7 @@
     font-weight: 500;
     color: #E7816B;
     max-width: 700px;
+    text-align: center;
 }
 
 .confirmationClose {
@@ -264,5 +265,10 @@
     .contactButtonContainer {
         justify-content: center;
         padding-top: 35px;
+    }
+
+    .confirmationMessage {
+        font-size: 15px;
+        width: 80vw;
     }
 }
