@@ -104,10 +104,10 @@
     color: #fff;
 }
 
-.backgroundImageRight {
+.backgroundImageContact {
     position: absolute;
     right: 0;
-    top: 850px;
+    bottom: 205px;
     z-index: -1;
   }
 

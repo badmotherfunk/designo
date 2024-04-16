@@ -169,7 +169,7 @@ export default function Contact() {
              width={1000}
              height={590}
              alt="Backrgound image"
-             className="backgroundImageRight"
+             className="backgroundImageContact"
             />
 
             <div className="citiesContainer">
