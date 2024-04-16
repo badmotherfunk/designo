@@ -16,6 +16,10 @@
     gap: 10px;
 }
 
+.left {
+    background-position: left;
+}
+
 .heroTitle {
     font-size: 48px;
     font-weight: 500;
@@ -32,6 +36,10 @@
 @media screen and (max-width: 1024px) {
     .heroContainer {
         background-position: center right -170px;
+    }
+
+    .left {
+        background-position: left;
     }
 }
 
