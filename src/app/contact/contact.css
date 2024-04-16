@@ -97,6 +97,7 @@
     font-family: "Jost";
     cursor: pointer;
     font-size: 15px;
+    color: #000;
 }
 
 .contactButton:hover {
