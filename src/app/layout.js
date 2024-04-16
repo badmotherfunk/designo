@@ -6,6 +6,9 @@ const inter = Jost({ subsets: ["latin"] });
 export const metadata = {
   title: "Designo",
   description: "Award-winning custom designs and digital branding solutions",
+  icons: {
+    icon: 'favicon.ico',
+  },
 };
 
 export default function RootLayout({ children }) {
