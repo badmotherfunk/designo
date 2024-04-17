@@ -107,9 +107,9 @@
 .backgroundImageContact {
     position: absolute;
     right: 0;
-    bottom: 205px;
+    top: 855px;
     z-index: -1;
-  }
+}
 
 .citiesContainer {
     padding-bottom: 70px;
