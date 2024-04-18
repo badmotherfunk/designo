@@ -64,6 +64,14 @@ export default function Contact() {
     const handleClose = () => {
         setIsSubmit(false)
         document.documentElement.style.overflowY = 'scroll';
+
+        // Remise à zéro des données des inputs
+        setFormValues({
+            fullName: '',
+            email: '',
+            phone: '',
+            message: ''
+        })
     }
 
 
